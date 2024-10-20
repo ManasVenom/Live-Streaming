@@ -1,0 +1,14 @@
+{
+  "name": "webrtc-streaming",
+  "version": "1.0.0",
+  "description": "A simple WebRTC streaming example.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "socket.io": "^4.5.4",
+    "webrtc-streaming": "file:"
+  }
+}
